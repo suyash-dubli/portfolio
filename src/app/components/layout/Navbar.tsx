@@ -10,7 +10,19 @@ export default function Navbar() {
           </a>
           <div className="space-x-10">
             <a href="#projects" className="hover:text-teal-400">Projects</a>
-            <a href="#resume" className="hover:text-teal-400">Resume</a>
+            <div className="relative inline-block group">
+              <a 
+                href="/Suyash_Kumar_Dubli_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer" 
+                className="hover:text-teal-400 relative"
+              >
+                Resume
+              </a>
+              <div className="absolute z-10 opacity-0 group-hover:opacity-100 bg-gray-700 text-white text-xs rounded py-1 px-2 transition-opacity duration-300 -top-10 left-1/2 transform -translate-x-1/2">
+                Download Resume
+              </div>
+            </div>
             <a href="#contact" className="hover:text-teal-400">Contact</a>
           </div>
         </div>
