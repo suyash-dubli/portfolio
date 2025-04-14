@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="flex items-center justify-center min-h-screen bg-gray-900 text-white">
       <div className="text-center px-6">
-        <h1 className="text-4xl md:text-6xl font-extrabold mb-4">Hi, Suyash Kumar Dubli</h1>
+        <h1 className="text-4xl md:text-6xl font-extrabold mb-4">Hi, I'm Suyash Kumar Dubli</h1>
         <p className="text-lg md:text-xl text-gray-300 max-w-xl mx-auto">
           Full-Stack Developer with a focus on JavaScript, React, and 3D tools like Three.js.
         </p>

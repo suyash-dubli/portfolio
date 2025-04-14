@@ -12,7 +12,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </main>
 
         <footer className="p-4 text-center text-sm text-gray-400">
-          © 2025 My Portfolio. All rights reserved.
+        © 2025 Suyash Kumar Dubli. All rights reserved. | Built with Next.js & Tailwind CSS.
         </footer>
       </body>
     </html>

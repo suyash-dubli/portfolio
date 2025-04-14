@@ -40,7 +40,7 @@ export default function Projects() {
             description: repo.description || 'No description available',
             url: repo.html_url
           }))
-          .slice(0, 9); // Limit to top 3 projects
+          .slice(0, 9); // Limit to top 9 projects
 
         setProjects(projectList);
         setIsLoading(false);
