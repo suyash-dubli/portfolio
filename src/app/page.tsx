@@ -5,6 +5,7 @@ import Navbar from './components/layout/Navbar'
 import Hero from './components/sections/Hero'
 import Projects from './components/sections/Projects'
 import Contacts from './components/sections/Contacts'
+import Chatbot from './components/sections/Chatbot'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <div id="contact" className="bg-gray-800 pt-16">
         <Contacts />
       </div>
+      <Chatbot />
     </div>
   )
 }
