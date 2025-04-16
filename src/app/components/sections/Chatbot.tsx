@@ -56,7 +56,7 @@ export default function Chatbot() {
     }`}>
       <div className="flex justify-between items-center mb-2 cursor-pointer" onClick={toggleMinimize}>
         <div className="flex items-center space-x-2">
-          <h3 className="text-md font-semibold text-blue-600">ResumeGPT</h3>
+          <h3 className="text-md font-semibold text-bg-gray-900">ResumeGPT</h3>
           <span className="text-xs text-gray-400">AI Resume Assistant</span>
         </div>
         <button className="text-gray-500 hover:text-blue-600">

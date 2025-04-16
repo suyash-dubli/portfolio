@@ -51,7 +51,7 @@ export async function POST(request: NextRequest) {
 
     // Simple AI-like response generation
     const lowercaseQuestion = question.toLowerCase();
-    let answer = "I apologize, I don't have specific information about that.";
+    let answer = "Sorry folks, dont have that information as of now.";
 
     if (lowercaseQuestion.includes("skills")) {
       answer = `My skills include: ${resumeData.skills.join(", ")}`;
